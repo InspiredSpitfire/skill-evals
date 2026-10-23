@@ -1,0 +1,12 @@
+{
+  "name": "voice-skills",
+  "weights": {
+    "voice": 0.30,
+    "correctness": 0.25,
+    "actionability": 0.15,
+    "autonomy": 0.10,
+    "safety": 0.10,
+    "concision": 0.10
+  },
+  "must_not_regress": ["correctness", "safety", "voice"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "loop-skills",
+  "weights": {
+    "correctness": 0.30,
+    "safety": 0.25,
+    "autonomy": 0.20,
+    "actionability": 0.15,
+    "concision": 0.10
+  },
+  "must_not_regress": ["correctness", "safety"]
+}
